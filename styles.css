@@ -1,0 +1,205 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+/* Appbar Styles */
+.appbar {
+    background-color: #4DB1E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.appbar .logo h1 {
+    font-size: 1.5rem;
+}
+
+.appbar .navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.appbar .navigation ul li {
+    margin-left: 1.5rem;
+}
+
+.appbar .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.appbar .navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #6200ea;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pulse {
+    position: absolute;
+    right: 16px;
+    color: #000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.search-input:focus + .search-icon {
+    color: #3700b3;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-transform: capitalize;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+    font-size: 1rem;
+    color: #333;
+}
+
+.container{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+
+}
+
+
+
+
+/* Status Button */
+button {
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid #1ECD97;
+    color:#1ECD97;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size:12px;
+    font-weight:bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      color:white;
+      background:#1ECD97;
+    }
+    &:active {
+      letter-spacing: 2px ;
+    }
+    &:after {
+      content:"CONFIRM";
+    }
+  }
+  .onclic {
+    width: 40px;
+    border-color:#bbbbbb;;
+    border-width:3px;
+    font-size:0;
+    border-left-color:#1ECD97;
+    animation: rotating 2s 0.25s linear infinite;
+  
+    &:after {
+      content:"";
+    }
+    &:hover {
+      color:#1ECD97;
+      background: white;
+    }
+  }
+  .validate {
+    font-size:13px;
+    color: white;
+    background:#1ECD97;
+    &:after {
+      font-family:'FontAwesome';
+      content:"\f00c";
+    }
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
