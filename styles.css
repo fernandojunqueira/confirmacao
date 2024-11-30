@@ -131,7 +131,7 @@ h2 {
 }
 
 .container{
-    min-width: 367px;
+    min-width: 360px;
     display: flex;
     flex-direction: column;
     gap: 10px;
