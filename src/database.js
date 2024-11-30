@@ -4953,5 +4953,110 @@ export const inscritos = [
     id: "4008",
     name: "Ezequiel Lopes",
     isPresent: 0
+  },
+  {
+    id: "4009",
+    name: "Jafe",
+    isPresent: 0
+  },
+  {
+    id: "4010",
+    name: "Lucas Fortes dos Santos",
+    isPresent: 0
+  },
+  {
+    id: "4011",
+    name: "Leonardo Alves Martins",
+    isPresent: 0
+  },
+  {
+    id: "4012",
+    name: "TASSILA DIAS MALTA MOREIRA MOURA",
+    isPresent: 0
+  },
+  {
+    id: "4013",
+    name: "Jaicon Jaimes Moura",
+    isPresent: 0
+  },
+  {
+    id: "4014",
+    name: "Drielle Moreira Steffen",
+    isPresent: 0
+  },
+  {
+    id: "4015",
+    name: "Otilia Bizarro",
+    isPresent: 0
+  },
+  {
+    id: "4016",
+    name: "José Américo Mian",
+    isPresent: 0
+  },
+  {
+    id: "4017",
+    name: "Vitória rosa Ferreira da Silva",
+    isPresent: 0
+  },
+  {
+    id: "4018",
+    name: "Bernardo",
+    isPresent: 0
+  },
+  {
+    id: "4019",
+    name: "Bernardo",
+    isPresent: 0
+  },
+  {
+    id: "4020",
+    name: "Tatiane Carvalho",
+    isPresent: 0
+  },
+  {
+    id: "4021",
+    name: "Tatiane Carvalho",
+    isPresent: 0
+  },
+  {
+    id: "4022",
+    name: "Fernando Mengue",
+    isPresent: 0
+  },
+  {
+    id: "4023",
+    name: "Dina Santos",
+    isPresent: 0
+  },
+  {
+    id: "4024",
+    name: "Rossini Torrieri Ramos",
+    isPresent: 0
+  },
+  {
+    id: "4025",
+    name: "Rossini Torrieri Ramos",
+    isPresent: 0
+  },
+  {
+    id: "4026",
+    name: "Rossini Torrieri Ramos",
+    isPresent: 0
+  },
+  {
+    id: "4027",
+    name: "Lara Rute Barbosa Nunes",
+    isPresent: 0
+  },
+  {
+    id: "4028",
+    name: "Cristiane",
+    isPresent: 0
+  },
+  {
+    id: "4029",
+    name: "Cristiane",
+    isPresent: 0
   }
 ];
