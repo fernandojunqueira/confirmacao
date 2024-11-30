@@ -47,11 +47,9 @@ function makeCard(data){
 
             const statusButton = document.createElement('button');
             statusButton.id = "button"
-            // statusButton.classList.add('status-button');
             
             if (person.isPresent) {
                 statusButton.classList.add('validate');
-                // statusButton.textContent = 'Confirmado';
             } else {
                 statusButton.addEventListener('click', function() {
                     statusButton.classList.add("onclic")
@@ -60,9 +58,6 @@ function makeCard(data){
                         setTimeout(function() {
                             statusButton.classList.remove("onclic")
                             statusButton.classList.add("validate")
-                        //   $( "#button" ).removeClass( "onclic" );
-                        //   $( "#button" ).addClass( "validate" );
-                        //   callback()
                         }, 550 );
                     }
 
